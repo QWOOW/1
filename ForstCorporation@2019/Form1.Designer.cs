@@ -19,7 +19,6 @@
             }
             base.Dispose(disposing);
         }
-
         #region Код, автоматически созданный конструктором форм Windows
 
         /// <summary>
@@ -175,7 +174,7 @@
             this.metroTabControl2.Location = new System.Drawing.Point(-5, -2);
             this.metroTabControl2.Name = "metroTabControl2";
             this.metroTabControl2.SelectedIndex = 0;
-            this.metroTabControl2.Size = new System.Drawing.Size(978, 44);
+            this.metroTabControl2.Size = new System.Drawing.Size(986, 42);
             this.metroTabControl2.Style = MetroFramework.MetroColorStyle.Green;
             this.metroTabControl2.TabIndex = 0;
             this.metroTabControl2.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -186,7 +185,7 @@
             this.tabPage2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage2.Location = new System.Drawing.Point(4, 38);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(970, 2);
+            this.tabPage2.Size = new System.Drawing.Size(978, 0);
             this.tabPage2.TabIndex = 0;
             this.tabPage2.Text = resources.GetString("tabPage2.Text");
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -202,17 +201,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImage = global::ForstCorporation_2019.Properties.Resources.DOTA_2_Lycan_Ursa_443405_2048x1152;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(950, 641);
+            this.ClientSize = new System.Drawing.Size(980, 641);
             this.Controls.Add(this.metroTabControl2);
             this.Controls.Add(this.metroTabControl1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(950, 641);
-            this.MinimumSize = new System.Drawing.Size(950, 641);
+            this.MaximumSize = new System.Drawing.Size(980, 641);
+            this.MinimumSize = new System.Drawing.Size(980, 641);
             this.Name = "Form1";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "Forst Corporation";
             this.metroTabControl1.ResumeLayout(false);
             this.metroTabControl.ResumeLayout(false);
