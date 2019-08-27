@@ -36,14 +36,18 @@
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTabControl2 = new MetroFramework.Controls.MetroTabControl();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.metroTabControl1.SuspendLayout();
             this.metroTabControl.SuspendLayout();
+            this.metroTabControl2.SuspendLayout();
             this.SuspendLayout();
             // 
             // metroTabControl1
             // 
             this.metroTabControl1.Controls.Add(this.metroTabControl);
-            this.metroTabControl1.Location = new System.Drawing.Point(331, 404);
+            this.metroTabControl1.Location = new System.Drawing.Point(366, 382);
             this.metroTabControl1.Name = "metroTabControl1";
             this.metroTabControl1.SelectedIndex = 0;
             this.metroTabControl1.Size = new System.Drawing.Size(309, 151);
@@ -165,6 +169,35 @@
             this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
+            // metroTabControl2
+            // 
+            this.metroTabControl2.Controls.Add(this.tabPage2);
+            this.metroTabControl2.Location = new System.Drawing.Point(-5, -2);
+            this.metroTabControl2.Name = "metroTabControl2";
+            this.metroTabControl2.SelectedIndex = 0;
+            this.metroTabControl2.Size = new System.Drawing.Size(978, 44);
+            this.metroTabControl2.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTabControl2.TabIndex = 0;
+            this.metroTabControl2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTabControl2.UseSelectable = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tabPage2.Location = new System.Drawing.Point(4, 38);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Size = new System.Drawing.Size(970, 2);
+            this.tabPage2.TabIndex = 0;
+            this.tabPage2.Text = resources.GetString("tabPage2.Text");
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(0, 0);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Size = new System.Drawing.Size(200, 100);
+            this.tabPage1.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -172,6 +205,7 @@
             this.BackgroundImage = global::ForstCorporation_2019.Properties.Resources.DOTA_2_Lycan_Ursa_443405_2048x1152;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(950, 641);
+            this.Controls.Add(this.metroTabControl2);
             this.Controls.Add(this.metroTabControl1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -183,6 +217,7 @@
             this.metroTabControl1.ResumeLayout(false);
             this.metroTabControl.ResumeLayout(false);
             this.metroTabControl.PerformLayout();
+            this.metroTabControl2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -195,6 +230,9 @@
         private MetroFramework.Controls.MetroTextBox metroTextBox2;
         private MetroFramework.Controls.MetroTextBox metroTextBox1;
         private MetroFramework.Controls.MetroCheckBox metroCheckBox1;
+        private MetroFramework.Controls.MetroTabControl metroTabControl2;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
     }
 }
 
