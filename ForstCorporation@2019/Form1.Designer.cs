@@ -47,7 +47,7 @@
             // metroTabControl1
             // 
             this.metroTabControl1.Controls.Add(this.metroTabControl);
-            this.metroTabControl1.Location = new System.Drawing.Point(366, 382);
+            this.metroTabControl1.Location = new System.Drawing.Point(330, 380);
             this.metroTabControl1.Name = "metroTabControl1";
             this.metroTabControl1.SelectedIndex = 0;
             this.metroTabControl1.Size = new System.Drawing.Size(309, 151);
@@ -72,7 +72,7 @@
             this.metroTabControl.Size = new System.Drawing.Size(301, 109);
             this.metroTabControl.Style = MetroFramework.MetroColorStyle.Green;
             this.metroTabControl.TabIndex = 0;
-            this.metroTabControl.Text = "                                Login                                ";
+            this.metroTabControl.Text = "                                 Вход                                 ";
             this.metroTabControl.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTabControl.VerticalScrollbarBarColor = true;
             this.metroTabControl.VerticalScrollbarHighlightOnWheel = false;
@@ -96,7 +96,7 @@
             this.metroButton1.Size = new System.Drawing.Size(301, 23);
             this.metroButton1.Style = MetroFramework.MetroColorStyle.Green;
             this.metroButton1.TabIndex = 2;
-            this.metroButton1.Text = "Login";
+            this.metroButton1.Text = "Войти";
             this.metroButton1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton1.UseSelectable = true;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
@@ -120,7 +120,7 @@
             this.metroTextBox2.MaxLength = 32767;
             this.metroTextBox2.Name = "metroTextBox2";
             this.metroTextBox2.PasswordChar = '●';
-            this.metroTextBox2.PromptText = "Password";
+            this.metroTextBox2.PromptText = "Введите пароль";
             this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.metroTextBox2.SelectedText = "";
             this.metroTextBox2.SelectionLength = 0;
@@ -131,7 +131,7 @@
             this.metroTextBox2.TabIndex = 5;
             this.metroTextBox2.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTextBox2.UseSelectable = true;
-            this.metroTextBox2.WaterMark = "Password";
+            this.metroTextBox2.WaterMark = "Введите пароль";
             this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
@@ -154,7 +154,7 @@
             this.metroTextBox1.MaxLength = 32767;
             this.metroTextBox1.Name = "metroTextBox1";
             this.metroTextBox1.PasswordChar = '\0';
-            this.metroTextBox1.PromptText = "Login";
+            this.metroTextBox1.PromptText = "Введите логин";
             this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.metroTextBox1.SelectedText = "";
             this.metroTextBox1.SelectionLength = 0;
@@ -165,7 +165,7 @@
             this.metroTextBox1.TabIndex = 4;
             this.metroTextBox1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTextBox1.UseSelectable = true;
-            this.metroTextBox1.WaterMark = "Login";
+            this.metroTextBox1.WaterMark = "Введите логин";
             this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
