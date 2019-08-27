@@ -72,7 +72,7 @@
             this.metroTabControl.Size = new System.Drawing.Size(301, 109);
             this.metroTabControl.Style = MetroFramework.MetroColorStyle.Green;
             this.metroTabControl.TabIndex = 0;
-            this.metroTabControl.Text = "                                 Вход                                 ";
+            this.metroTabControl.Text = "                      Авторизируйтесь                                 ";
             this.metroTabControl.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTabControl.VerticalScrollbarBarColor = true;
             this.metroTabControl.VerticalScrollbarHighlightOnWheel = false;
